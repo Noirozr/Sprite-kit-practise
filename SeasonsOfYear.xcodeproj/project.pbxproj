@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1826B67318F29295006B664B /* WinterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826B67218F29295006B664B /* WinterScene.m */; };
+		1826B67618F297FA006B664B /* WinterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826B67518F297FA006B664B /* WinterView.m */; };
+		183B037318E9E8AB00D95E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B037218E9E8AB00D95E3A /* Foundation.framework */; };
+		183B037518E9E8AB00D95E3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B037418E9E8AB00D95E3A /* CoreGraphics.framework */; };
+		183B037718E9E8AB00D95E3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B037618E9E8AB00D95E3A /* UIKit.framework */; };
+		183B037D18E9E8AB00D95E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183B037B18E9E8AB00D95E3A /* InfoPlist.strings */; };
+		183B037F18E9E8AB00D95E3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B037E18E9E8AB00D95E3A /* main.m */; };
+		183B038318E9E8AC00D95E3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B038218E9E8AC00D95E3A /* AppDelegate.m */; };
+		183B038518E9E8AC00D95E3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183B038418E9E8AC00D95E3A /* Images.xcassets */; };
+		183B038C18E9E8AC00D95E3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B038B18E9E8AC00D95E3A /* XCTest.framework */; };
+		183B038D18E9E8AC00D95E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B037218E9E8AB00D95E3A /* Foundation.framework */; };
+		183B038E18E9E8AC00D95E3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B037618E9E8AB00D95E3A /* UIKit.framework */; };
+		183B039618E9E8AC00D95E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183B039418E9E8AC00D95E3A /* InfoPlist.strings */; };
+		183B039818E9E8AC00D95E3A /* SeasonsOfYearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B039718E9E8AC00D95E3A /* SeasonsOfYearTests.m */; };
+		183B03A318E9EA2600D95E3A /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B03A218E9EA2600D95E3A /* baseViewController.m */; };
+		183B03AA18E9EAD500D95E3A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 183B03A818E9EAD500D95E3A /* spark.png */; };
+		183B03AC18E9EAF000D95E3A /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 183B03AB18E9EAF000D95E3A /* SnowParticle.sks */; };
+		183B03BA18EB238A00D95E3A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B03B918EB238A00D95E3A /* SpriteKit.framework */; };
+		183B03BD18EB23CD00D95E3A /* SpringScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B03BC18EB23CD00D95E3A /* SpringScene.m */; };
+		183B03BF18EB30B900D95E3A /* RainParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 183B03BE18EB30B900D95E3A /* RainParticle.sks */; };
+		183B03C518EFC7A700D95E3A /* SpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B03C418EFC7A700D95E3A /* SpringView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183B038F18E9E8AC00D95E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183B036718E9E8AB00D95E3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183B036E18E9E8AB00D95E3A;
+			remoteInfo = SeasonsOfYear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1826B67118F29295006B664B /* WinterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinterScene.h; sourceTree = "<group>"; };
+		1826B67218F29295006B664B /* WinterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinterScene.m; sourceTree = "<group>"; };
+		1826B67418F297FA006B664B /* WinterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinterView.h; sourceTree = "<group>"; };
+		1826B67518F297FA006B664B /* WinterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinterView.m; sourceTree = "<group>"; };
+		183B036F18E9E8AB00D95E3A /* SeasonsOfYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonsOfYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183B037218E9E8AB00D95E3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183B037418E9E8AB00D95E3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183B037618E9E8AB00D95E3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183B037A18E9E8AB00D95E3A /* SeasonsOfYear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeasonsOfYear-Info.plist"; sourceTree = "<group>"; };
+		183B037C18E9E8AB00D95E3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183B037E18E9E8AB00D95E3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183B038018E9E8AB00D95E3A /* SeasonsOfYear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeasonsOfYear-Prefix.pch"; sourceTree = "<group>"; };
+		183B038118E9E8AC00D95E3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183B038218E9E8AC00D95E3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183B038418E9E8AC00D95E3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		183B038A18E9E8AC00D95E3A /* SeasonsOfYearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonsOfYearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183B038B18E9E8AC00D95E3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		183B039318E9E8AC00D95E3A /* SeasonsOfYearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeasonsOfYearTests-Info.plist"; sourceTree = "<group>"; };
+		183B039518E9E8AC00D95E3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183B039718E9E8AC00D95E3A /* SeasonsOfYearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeasonsOfYearTests.m; sourceTree = "<group>"; };
+		183B03A118E9EA2600D95E3A /* baseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
+		183B03A218E9EA2600D95E3A /* baseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		183B03A818E9EAD500D95E3A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		183B03AB18E9EAF000D95E3A /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		183B03B918EB238A00D95E3A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		183B03BB18EB23CD00D95E3A /* SpringScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringScene.h; sourceTree = "<group>"; };
+		183B03BC18EB23CD00D95E3A /* SpringScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringScene.m; sourceTree = "<group>"; };
+		183B03BE18EB30B900D95E3A /* RainParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainParticle.sks; sourceTree = "<group>"; };
+		183B03C318EFC7A700D95E3A /* SpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringView.h; sourceTree = "<group>"; };
+		183B03C418EFC7A700D95E3A /* SpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183B036C18E9E8AB00D95E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183B03BA18EB238A00D95E3A /* SpriteKit.framework in Frameworks */,
+				183B037518E9E8AB00D95E3A /* CoreGraphics.framework in Frameworks */,
+				183B037718E9E8AB00D95E3A /* UIKit.framework in Frameworks */,
+				183B037318E9E8AB00D95E3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183B038718E9E8AC00D95E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183B038C18E9E8AC00D95E3A /* XCTest.framework in Frameworks */,
+				183B038E18E9E8AC00D95E3A /* UIKit.framework in Frameworks */,
+				183B038D18E9E8AC00D95E3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183B036618E9E8AB00D95E3A = {
+			isa = PBXGroup;
+			children = (
+				183B037818E9E8AB00D95E3A /* SeasonsOfYear */,
+				183B039118E9E8AC00D95E3A /* SeasonsOfYearTests */,
+				183B037118E9E8AB00D95E3A /* Frameworks */,
+				183B037018E9E8AB00D95E3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183B037018E9E8AB00D95E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183B036F18E9E8AB00D95E3A /* SeasonsOfYear.app */,
+				183B038A18E9E8AC00D95E3A /* SeasonsOfYearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183B037118E9E8AB00D95E3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183B03B918EB238A00D95E3A /* SpriteKit.framework */,
+				183B037218E9E8AB00D95E3A /* Foundation.framework */,
+				183B037418E9E8AB00D95E3A /* CoreGraphics.framework */,
+				183B037618E9E8AB00D95E3A /* UIKit.framework */,
+				183B038B18E9E8AC00D95E3A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183B037818E9E8AB00D95E3A /* SeasonsOfYear */ = {
+			isa = PBXGroup;
+			children = (
+				183B038118E9E8AC00D95E3A /* AppDelegate.h */,
+				183B038218E9E8AC00D95E3A /* AppDelegate.m */,
+				183B03BB18EB23CD00D95E3A /* SpringScene.h */,
+				183B03BC18EB23CD00D95E3A /* SpringScene.m */,
+				1826B67118F29295006B664B /* WinterScene.h */,
+				1826B67218F29295006B664B /* WinterScene.m */,
+				1826B67418F297FA006B664B /* WinterView.h */,
+				1826B67518F297FA006B664B /* WinterView.m */,
+				183B03C318EFC7A700D95E3A /* SpringView.h */,
+				183B03C418EFC7A700D95E3A /* SpringView.m */,
+				183B03A118E9EA2600D95E3A /* baseViewController.h */,
+				183B03A218E9EA2600D95E3A /* baseViewController.m */,
+				183B03BE18EB30B900D95E3A /* RainParticle.sks */,
+				183B03AB18E9EAF000D95E3A /* SnowParticle.sks */,
+				183B03A818E9EAD500D95E3A /* spark.png */,
+				183B038418E9E8AC00D95E3A /* Images.xcassets */,
+				183B037918E9E8AB00D95E3A /* Supporting Files */,
+			);
+			path = SeasonsOfYear;
+			sourceTree = "<group>";
+		};
+		183B037918E9E8AB00D95E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183B037A18E9E8AB00D95E3A /* SeasonsOfYear-Info.plist */,
+				183B037B18E9E8AB00D95E3A /* InfoPlist.strings */,
+				183B037E18E9E8AB00D95E3A /* main.m */,
+				183B038018E9E8AB00D95E3A /* SeasonsOfYear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183B039118E9E8AC00D95E3A /* SeasonsOfYearTests */ = {
+			isa = PBXGroup;
+			children = (
+				183B039718E9E8AC00D95E3A /* SeasonsOfYearTests.m */,
+				183B039218E9E8AC00D95E3A /* Supporting Files */,
+			);
+			path = SeasonsOfYearTests;
+			sourceTree = "<group>";
+		};
+		183B039218E9E8AC00D95E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183B039318E9E8AC00D95E3A /* SeasonsOfYearTests-Info.plist */,
+				183B039418E9E8AC00D95E3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183B036E18E9E8AB00D95E3A /* SeasonsOfYear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183B039B18E9E8AC00D95E3A /* Build configuration list for PBXNativeTarget "SeasonsOfYear" */;
+			buildPhases = (
+				183B036B18E9E8AB00D95E3A /* Sources */,
+				183B036C18E9E8AB00D95E3A /* Frameworks */,
+				183B036D18E9E8AB00D95E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeasonsOfYear;
+			productName = SeasonsOfYear;
+			productReference = 183B036F18E9E8AB00D95E3A /* SeasonsOfYear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183B038918E9E8AC00D95E3A /* SeasonsOfYearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183B039E18E9E8AC00D95E3A /* Build configuration list for PBXNativeTarget "SeasonsOfYearTests" */;
+			buildPhases = (
+				183B038618E9E8AC00D95E3A /* Sources */,
+				183B038718E9E8AC00D95E3A /* Frameworks */,
+				183B038818E9E8AC00D95E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183B039018E9E8AC00D95E3A /* PBXTargetDependency */,
+			);
+			name = SeasonsOfYearTests;
+			productName = SeasonsOfYearTests;
+			productReference = 183B038A18E9E8AC00D95E3A /* SeasonsOfYearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183B036718E9E8AB00D95E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yongjia Liu";
+				TargetAttributes = {
+					183B038918E9E8AC00D95E3A = {
+						TestTargetID = 183B036E18E9E8AB00D95E3A;
+					};
+				};
+			};
+			buildConfigurationList = 183B036A18E9E8AB00D95E3A /* Build configuration list for PBXProject "SeasonsOfYear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183B036618E9E8AB00D95E3A;
+			productRefGroup = 183B037018E9E8AB00D95E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183B036E18E9E8AB00D95E3A /* SeasonsOfYear */,
+				183B038918E9E8AC00D95E3A /* SeasonsOfYearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183B036D18E9E8AB00D95E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183B03BF18EB30B900D95E3A /* RainParticle.sks in Resources */,
+				183B037D18E9E8AB00D95E3A /* InfoPlist.strings in Resources */,
+				183B03AC18E9EAF000D95E3A /* SnowParticle.sks in Resources */,
+				183B03AA18E9EAD500D95E3A /* spark.png in Resources */,
+				183B038518E9E8AC00D95E3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183B038818E9E8AC00D95E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183B039618E9E8AC00D95E3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183B036B18E9E8AB00D95E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183B03BD18EB23CD00D95E3A /* SpringScene.m in Sources */,
+				1826B67618F297FA006B664B /* WinterView.m in Sources */,
+				183B038318E9E8AC00D95E3A /* AppDelegate.m in Sources */,
+				183B03C518EFC7A700D95E3A /* SpringView.m in Sources */,
+				1826B67318F29295006B664B /* WinterScene.m in Sources */,
+				183B03A318E9EA2600D95E3A /* baseViewController.m in Sources */,
+				183B037F18E9E8AB00D95E3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183B038618E9E8AC00D95E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183B039818E9E8AC00D95E3A /* SeasonsOfYearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183B039018E9E8AC00D95E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183B036E18E9E8AB00D95E3A /* SeasonsOfYear */;
+			targetProxy = 183B038F18E9E8AC00D95E3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183B037B18E9E8AB00D95E3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183B037C18E9E8AB00D95E3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		183B039418E9E8AC00D95E3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183B039518E9E8AC00D95E3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183B039918E9E8AC00D95E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		183B039A18E9E8AC00D95E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183B039C18E9E8AC00D95E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeasonsOfYear/SeasonsOfYear-Prefix.pch";
+				INFOPLIST_FILE = "SeasonsOfYear/SeasonsOfYear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183B039D18E9E8AC00D95E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeasonsOfYear/SeasonsOfYear-Prefix.pch";
+				INFOPLIST_FILE = "SeasonsOfYear/SeasonsOfYear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		183B039F18E9E8AC00D95E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeasonsOfYear.app/SeasonsOfYear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeasonsOfYear/SeasonsOfYear-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SeasonsOfYearTests/SeasonsOfYearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		183B03A018E9E8AC00D95E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeasonsOfYear.app/SeasonsOfYear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeasonsOfYear/SeasonsOfYear-Prefix.pch";
+				INFOPLIST_FILE = "SeasonsOfYearTests/SeasonsOfYearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183B036A18E9E8AB00D95E3A /* Build configuration list for PBXProject "SeasonsOfYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183B039918E9E8AC00D95E3A /* Debug */,
+				183B039A18E9E8AC00D95E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183B039B18E9E8AC00D95E3A /* Build configuration list for PBXNativeTarget "SeasonsOfYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183B039C18E9E8AC00D95E3A /* Debug */,
+				183B039D18E9E8AC00D95E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183B039E18E9E8AC00D95E3A /* Build configuration list for PBXNativeTarget "SeasonsOfYearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183B039F18E9E8AC00D95E3A /* Debug */,
+				183B03A018E9E8AC00D95E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183B036718E9E8AB00D95E3A /* Project object */;
+}
